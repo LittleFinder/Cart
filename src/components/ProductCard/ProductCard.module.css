@@ -1,6 +1,6 @@
 .card {
     padding-bottom: 20px;
-    border: 2px solid #f5f5f5;
+    border: 2px solid var(--card-border);
     width: 296px;
     text-align: center;
     border-radius: 20px;
@@ -21,7 +21,7 @@
       font-weight: 600;
     }
    .card:hover {
-      border: 2px solid #212a2f;
+      border: 2px solid var(--card-hover);
       transform: translateY(-5px);
     }
 

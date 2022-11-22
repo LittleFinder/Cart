@@ -4,10 +4,11 @@ I used module.css for styling and library react-router-dom for navigation betwee
 User can add products in cart, delete products in cart, delete all products, change quantity project, see total price.
 Products upload from mockApi.
 More details about site view we can find in screenshots:
+
 <img src="img/Poject-cart.png" width="500" height="500"/>
 <img src="ProductInCart.png" width="500" height="500"/>
 
-In the future I will add page with favorite products, that's why I decide save mark-up and some code for it.
+In the future I will show quantity in Cart icon, add page with favorite products, that's why I decide save mark-up and some code for it.
 
 # Getting Started with Create React App
 

@@ -42,6 +42,27 @@
     
 }
 
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+    .logoWrapper svg{
+        width: 110px;
+        align-self: start;
+    }
+
+    .headerLeft{
+        display: none;
+    }
+    .listIcons {
+        column-gap: 10px;
+    }
+   
+}
+
+
+
+
+
+
+
 @media screen and (max-width: 768px) and (min-width: 481px) {
     .header{
         padding-left: 10px;
@@ -52,12 +73,6 @@
         align-self: start;
     }
 
-    .headerLeft{
-        display: none;
-    }
-    .listIcons {
-        column-gap: 10px;
-    }
    
 }
 
