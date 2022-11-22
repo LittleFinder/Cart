@@ -8,6 +8,8 @@ More details about site view we can find in screenshots:
 <img src="img/Poject-cart.png" width="500" height="500"/>
 <img src="ProductInCart.png" width="500" height="500"/>
 
+And also you can visit deployed site : https://sneakers-carts.netlify.app;
+
 In the future I will show quantity in Cart icon, add page with favorite products, that's why I decide save mark-up and some code for it.
 
 # Getting Started with Create React App
