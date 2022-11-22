@@ -1,59 +1,58 @@
 .card {
-    padding-bottom: 20px;
-    border: 2px solid var(--card-border);
-    width: 296px;
-    text-align: center;
-    border-radius: 20px;
-    transition: all 0.2s ease-in-out;
-    position: relative;
-    cursor: pointer;
+  padding-bottom: 20px;
+  border: 2px solid var(--card-border);
+  width: 296px;
+  text-align: center;
+  border-radius: 20px;
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  cursor: pointer;
 }
-    .card .conteiner {
-      display: flex;
-      justify-content: space-around;
-      align-items: center;
-    }
-    .name {
-      font-weight: 600;
-    }
-    .price {
-      font-size: 20px;
-      font-weight: 600;
-    }
-   .card:hover {
-      border: 2px solid var(--card-hover);
-      transform: translateY(-5px);
-    }
+.card .conteiner {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.name {
+  font-weight: 600;
+}
+.price {
+  font-size: 20px;
+  font-weight: 600;
+}
+.card:hover {
+  border: 2px solid var(--card-hover);
+  transform: translateY(-5px);
+}
 
-    .img {
-      display: block;
-      border-radius: 18px 18px 0px 0px;
-      width: 100%;
-    }
-    .favoriteBtn,
-    .favoriteIcon {
-      position: absolute;
-      top: 11px;
-      right: 9px;
-      z-index: 5;
-      width: 40px;
-      height: 40px;
-    }
+.img {
+  display: block;
+  border-radius: 18px 18px 0px 0px;
+  width: 100%;
+}
+.favoriteBtn,
+.favoriteIcon {
+  position: absolute;
+  top: 11px;
+  right: 9px;
+  z-index: 5;
+  width: 40px;
+  height: 40px;
+}
 
-  .button {
-    box-sizing: border-box;
-    width: 32px;
-    height: 32px;
-    border-radius: 8px;
-    cursor: pointer;
-  }
-  
-  .checked {
-    background-color: #89f09c;
-    border: 1px solid transparent;
-  }
-  .add {
-    border: 1px solid #f3f3f3;
-    background-color: #fff;
-  }
-  
+.button {
+  box-sizing: border-box;
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.checked {
+  background-color: #89f09c;
+  border: 1px solid transparent;
+}
+.add {
+  border: 1px solid #f3f3f3;
+  background-color: #fff;
+}

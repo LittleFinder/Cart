@@ -3,8 +3,7 @@ import styles from '../Home/Home.module.css';
 import axios from 'axios';
 import { useState, useEffect } from 'react';
 import { ProductsList } from '../../components/ProductsList/ProductsList';
-import cn from 'classnames'
-
+import cn from 'classnames';
 
 export const Home = () => {
   const [items, setItems] = useState([]);
@@ -19,8 +18,8 @@ export const Home = () => {
 
   return (
     <main className={cn(styles.mainWrapper, styles.content)}>
-        <h1 className={styles.heading}>All sneakers:</h1>
-     <ProductsList items={items}/>
+      <h1 className={styles.heading}>All sneakers:</h1>
+      <ProductsList items={items} />
     </main>
   );
 };

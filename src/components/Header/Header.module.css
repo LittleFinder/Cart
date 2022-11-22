@@ -1,118 +1,107 @@
-.header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 10px;
-    padding-left: 15px;
-    padding-right: 15px;
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
-.header svg path{
-    fill: var(--header-icon)
-  }
-
-.logoWrapper{
-    align-self: center;
+.header svg path {
+  fill: var(--header-icon);
 }
 
-.logo{
-    width: 120px;
-    height: 38px;
-}
-  
-.headerLeft a:not(:last-child){
-    margin-right: 40px;
+.logoWrapper {
+  align-self: center;
 }
 
-.listIcons{
-    display: flex;
-    align-items: center;
-    column-gap: 20px;
-    cursor: pointer;
-    transition: all 0.5s;
+.logo {
+  width: 120px;
+  height: 38px;
 }
 
-.headerLeft a:hover{
-    display: inline-block;
+.headerLeft a:not(:last-child) {
+  margin-right: 40px;
+}
+
+.listIcons {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.headerLeft a:hover {
+  display: inline-block;
 }
 
 .headerLeft a:hover,
-.listIcons svg:hover{
-    transform: translateY(-5px);
-    
+.listIcons svg:hover {
+  transform: translateY(-5px);
 }
 
 @media screen and (max-width: 1024px) and (min-width: 768px) {
-    .logoWrapper svg{
-        width: 110px;
-        align-self: start;
-    }
+  .logoWrapper svg {
+    width: 110px;
+    align-self: start;
+  }
 
-    .headerLeft{
-        display: none;
-    }
-    .listIcons {
-        column-gap: 10px;
-    }
-   
+  .headerLeft {
+    display: none;
+  }
+  .listIcons {
+    column-gap: 10px;
+  }
 }
-
-
-
-
-
-
 
 @media screen and (max-width: 768px) and (min-width: 481px) {
-    .header{
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-    .logoWrapper svg{
-        width: 100px;
-        align-self: start;
-    }
-
-   
+  .header {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .logoWrapper svg {
+    width: 100px;
+    align-self: start;
+  }
 }
 
-@media screen and (max-width: 481px)  and (min-width: 360px){
-    .header{
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-    .logoWrapper svg{
-        width: 60px;
-        align-self: start;
-    }
+@media screen and (max-width: 481px) and (min-width: 360px) {
+  .header {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .logoWrapper svg {
+    width: 60px;
+    align-self: start;
+  }
 
-    .headerLeft{
-        display: none;
-    }
-    .listIcons{
-        column-gap: 10px;
-    }
-    .favoriteItem, .userItem{
-        display: none;
-    }
-   
+  .headerLeft {
+    display: none;
+  }
+  .listIcons {
+    column-gap: 10px;
+  }
+  .favoriteItem,
+  .userItem {
+    display: none;
+  }
 }
-@media screen and (max-width: 360px){
-    .header{
-        padding-left: 5px;
-        padding-right: 5px;
-    }
-    .logoWrapper svg{
-        width: 50px;
-        align-self: start;
-    }
+@media screen and (max-width: 360px) {
+  .header {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .logoWrapper svg {
+    width: 50px;
+    align-self: start;
+  }
 
-    .listIcons svg{
-        width: 30px;
-        height: 50px;
-    }
-    .listIcons {
-        column-gap: 5px;
-    }
-   
+  .listIcons svg {
+    width: 30px;
+    height: 50px;
+  }
+  .listIcons {
+    column-gap: 5px;
+  }
 }
