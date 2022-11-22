@@ -1,0 +1,28 @@
+.items {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  row-gap: 35px;
+  width: 100%;
+}
+
+@media screen and (max-width: 1024px) and (min-width: 912px) {
+  .items {
+    grid-template-columns: repeat(3, auto);
+    row-gap: 20px;
+  }
+}
+
+@media screen and (max-width: 912px) and (min-width: 740px) {
+  .items {
+    grid-template-columns: repeat(2, auto);
+    column-gap: 20px;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .items {
+    grid-template-columns: repeat(1, auto);
+    row-gap: 20px;
+    justify-content: center;
+  }
+}

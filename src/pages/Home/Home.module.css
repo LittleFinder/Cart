@@ -1,0 +1,31 @@
+.content {
+  padding-top: 90px;
+}
+
+.heading {
+    font-weight: 400;
+    font-size: 32px;
+    letter-spacing: 0.5px;
+    margin-bottom: 30px;
+  }
+
+  @media screen and (max-width: 768px) and (min-width: 481px) {
+    .content {
+      padding-top: 60px;
+    }
+    .heading{
+      font-size: 20px;
+    }
+   
+}
+
+@media screen and (max-width: 481px)  and (min-width: 360px){
+  .content {
+    padding-top: 30px;
+  }
+  .heading{
+    font-size: 14px;
+  }
+ 
+   
+}

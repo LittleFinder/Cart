@@ -1,25 +1,32 @@
-import logo from './logo.svg';
 import './App.css';
+import Header from './components/Header/Header';
+import {useState } from 'react';
+import {Routes, Route} from 'react-router-dom'
+import { ThemeContext } from './context/ThemeContext';
+import { ShopProvider } from "./context/ShopContext"
+import { Home } from './pages/Home/Home';
+import { Cart } from './pages/Cart/Cart';
 
-function App() {
+const App = () => {
+  const [theme, setTheme] = useState('light');
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <ThemeContext.Provider value={{ theme, setTheme }}>
+        <ShopProvider>
+        <div className="App" data-theme={theme}>
+        <Header/>
+          <div className="mainWrapper">
+          <Routes>
+            <Route path="/" element={<Home/>}/>
+            <Route path="/cart" element={<Cart/>}/>
+          </Routes>
+          </div>
+        
+         </div>
+        </ShopProvider>
+      </ThemeContext.Provider>
+    </>
   );
-}
+};
 
 export default App;
