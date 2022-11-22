@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from '../CartsList/CartCard.module.css'
+import styles from '../CartCard/CartCard.module.css'
 import cn from 'classnames'
 
 const CartInfo = () => {

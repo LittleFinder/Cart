@@ -1,6 +1,6 @@
 import React from 'react'
 import useShop from '../../context/ShopContext'
-import { CartCard } from './CartCard';
+import { CartCard } from '../CartCard/CartCard';
 import styles from './CartList.module.css'
 
 export const CartsList = () => {
