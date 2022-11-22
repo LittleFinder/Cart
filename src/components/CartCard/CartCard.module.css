@@ -1,4 +1,4 @@
-.cartWrapper {
+r {
   margin-bottom: 20px;
 }
 .cartGrid {
@@ -6,6 +6,7 @@
   align-items: center;
   grid-template-columns: 40% 20% 20% 20%;
   column-gap: 70px;
+  color: var(--text-color);
 }
 
 .listHeadings {
@@ -122,8 +123,8 @@
 
 @media only screen and (max-width: 640px) and (min-width: 360px) {
   .img {
-    width: 70px;
-    height: 70px;
+    width: 60px;
+    height: 60px;
   }
 
   .cartProduct {
@@ -136,12 +137,12 @@
 
   .cartBtnRemove {
     padding: 3px 5px;
-    width: 60px;
-    font-size: 12px;
+    width: 45px;
+    font-size: 9px;
   }
 
   .cartGrid {
-    column-gap: 35px;
+    column-gap: 5px;
   }
 
   .itemHeading,
