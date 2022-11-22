@@ -5,8 +5,9 @@ User can add products in cart, delete products in cart, delete all products, cha
 Products upload from mockApi.
 More details about site view we can find in screenshots:
 
-<img src="img/Poject-cart.png" width="500" height="500"/>
-<img src="ProductInCart.png" width="500" height="500"/>
+![SneakersHomePage](https://user-images.githubusercontent.com/63267772/203412211-4ad22fe0-dba3-4df7-a6a5-5dfcd24009ee.png)
+![SneakesCartPage](https://user-images.githubusercontent.com/63267772/203412306-4f040485-e0dc-43e3-96a2-1758cae6359d.png)
+
 
 And also you can visit deployed site : https://sneakers-carts.netlify.app;
 
